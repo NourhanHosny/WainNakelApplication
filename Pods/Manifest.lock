@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.2)
+  - lottie-ios (3.0.3)
+  - NVActivityIndicatorView/AppExtension (4.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - NVActivityIndicatorView/AppExtension
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - lottie-ios
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+
+PODFILE CHECKSUM: d062f69cc000ff6da93e3ef36a80d46cd988d482
+
+COCOAPODS: 1.5.3

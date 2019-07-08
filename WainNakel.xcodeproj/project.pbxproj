@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048C057222D2D4BD0001CB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C057122D2D4BD0001CB33 /* AppDelegate.swift */; };
-		048C057422D2D4BD0001CB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C057322D2D4BD0001CB33 /* ViewController.swift */; };
-		048C057722D2D4BD0001CB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C057522D2D4BD0001CB33 /* Main.storyboard */; };
 		048C057922D2D4BE0001CB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C057822D2D4BE0001CB33 /* Assets.xcassets */; };
 		048C057C22D2D4BE0001CB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C057A22D2D4BE0001CB33 /* LaunchScreen.storyboard */; };
+		048C059322D2D4EF0001CB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058422D2D4EE0001CB33 /* ViewController.swift */; };
+		048C059422D2D4EF0001CB33 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C058522D2D4EE0001CB33 /* HeaderView.xib */; };
+		048C059522D2D4EF0001CB33 /* ResturantDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058622D2D4EE0001CB33 /* ResturantDetailsVC.swift */; };
+		048C059622D2D4EF0001CB33 /* SideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C058722D2D4EE0001CB33 /* SideMenuView.xib */; };
+		048C059722D2D4EF0001CB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C058822D2D4EE0001CB33 /* Main.storyboard */; };
+		048C059822D2D4EF0001CB33 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058922D2D4EE0001CB33 /* HeaderView.swift */; };
+		048C059922D2D4EF0001CB33 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058A22D2D4EE0001CB33 /* SideMenuView.swift */; };
+		048C059A22D2D4EF0001CB33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058C22D2D4EE0001CB33 /* NetworkManager.swift */; };
+		048C059B22D2D4EF0001CB33 /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058D22D2D4EE0001CB33 /* ServiceBase.swift */; };
+		048C059C22D2D4EF0001CB33 /* ResturantVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C058F22D2D4EE0001CB33 /* ResturantVM.swift */; };
+		048C059D22D2D4EF0001CB33 /* Resturant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C059122D2D4EE0001CB33 /* Resturant.swift */; };
+		048C059E22D2D4EF0001CB33 /* 1192-like.json in Resources */ = {isa = PBXBuildFile; fileRef = 048C059222D2D4EE0001CB33 /* 1192-like.json */; };
+		048C05A022D2D76E0001CB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C059F22D2D76E0001CB33 /* AppDelegate.swift */; };
+		B24D2027000235C0F9A37DBE /* Pods_WainNakel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC63F970AFAA191B726216 /* Pods_WainNakel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048C056E22D2D4BD0001CB33 /* WainNakel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WainNakel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		048C057122D2D4BD0001CB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		048C057322D2D4BD0001CB33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		048C057622D2D4BD0001CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048C057822D2D4BE0001CB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048C057B22D2D4BE0001CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048C057D22D2D4BE0001CB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C058422D2D4EE0001CB33 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048C058522D2D4EE0001CB33 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		048C058622D2D4EE0001CB33 /* ResturantDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantDetailsVC.swift; sourceTree = "<group>"; };
+		048C058722D2D4EE0001CB33 /* SideMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuView.xib; sourceTree = "<group>"; };
+		048C058822D2D4EE0001CB33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		048C058922D2D4EE0001CB33 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		048C058A22D2D4EE0001CB33 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		048C058C22D2D4EE0001CB33 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		048C058D22D2D4EE0001CB33 /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
+		048C058F22D2D4EE0001CB33 /* ResturantVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantVM.swift; sourceTree = "<group>"; };
+		048C059122D2D4EE0001CB33 /* Resturant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resturant.swift; sourceTree = "<group>"; };
+		048C059222D2D4EE0001CB33 /* 1192-like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1192-like.json"; sourceTree = "<group>"; };
+		048C059F22D2D76E0001CB33 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25E7C75B7A8B5CD2BD2BD561 /* Pods-WainNakel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WainNakel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WainNakel/Pods-WainNakel.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EC63F970AFAA191B726216 /* Pods_WainNakel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WainNakel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD8D68AFF1D05AB6AAD6847 /* Pods-WainNakel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WainNakel.release.xcconfig"; path = "Pods/Target Support Files/Pods-WainNakel/Pods-WainNakel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24D2027000235C0F9A37DBE /* Pods_WainNakel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				048C057022D2D4BD0001CB33 /* WainNakel */,
 				048C056F22D2D4BD0001CB33 /* Products */,
+				E3603CF87CEDF51FA942C94F /* Pods */,
+				41DC1DBBF304EEE676F32F7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,73 @@
 		048C057022D2D4BD0001CB33 /* WainNakel */ = {
 			isa = PBXGroup;
 			children = (
-				048C057122D2D4BD0001CB33 /* AppDelegate.swift */,
-				048C057322D2D4BD0001CB33 /* ViewController.swift */,
-				048C057522D2D4BD0001CB33 /* Main.storyboard */,
+				048C059222D2D4EE0001CB33 /* 1192-like.json */,
+				048C059022D2D4EE0001CB33 /* Model */,
+				048C058B22D2D4EE0001CB33 /* NetworkManger */,
+				048C058322D2D4EE0001CB33 /* View */,
+				048C058E22D2D4EE0001CB33 /* ViewModel */,
 				048C057822D2D4BE0001CB33 /* Assets.xcassets */,
 				048C057A22D2D4BE0001CB33 /* LaunchScreen.storyboard */,
 				048C057D22D2D4BE0001CB33 /* Info.plist */,
 			);
 			path = WainNakel;
+			sourceTree = "<group>";
+		};
+		048C058322D2D4EE0001CB33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048C059F22D2D76E0001CB33 /* AppDelegate.swift */,
+				048C058422D2D4EE0001CB33 /* ViewController.swift */,
+				048C058522D2D4EE0001CB33 /* HeaderView.xib */,
+				048C058622D2D4EE0001CB33 /* ResturantDetailsVC.swift */,
+				048C058722D2D4EE0001CB33 /* SideMenuView.xib */,
+				048C058822D2D4EE0001CB33 /* Main.storyboard */,
+				048C058922D2D4EE0001CB33 /* HeaderView.swift */,
+				048C058A22D2D4EE0001CB33 /* SideMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048C058B22D2D4EE0001CB33 /* NetworkManger */ = {
+			isa = PBXGroup;
+			children = (
+				048C058C22D2D4EE0001CB33 /* NetworkManager.swift */,
+				048C058D22D2D4EE0001CB33 /* ServiceBase.swift */,
+			);
+			path = NetworkManger;
+			sourceTree = "<group>";
+		};
+		048C058E22D2D4EE0001CB33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				048C058F22D2D4EE0001CB33 /* ResturantVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		048C059022D2D4EE0001CB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048C059122D2D4EE0001CB33 /* Resturant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41DC1DBBF304EEE676F32F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0EC63F970AFAA191B726216 /* Pods_WainNakel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3603CF87CEDF51FA942C94F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E7C75B7A8B5CD2BD2BD561 /* Pods-WainNakel.debug.xcconfig */,
+				BAD8D68AFF1D05AB6AAD6847 /* Pods-WainNakel.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048C058022D2D4BE0001CB33 /* Build configuration list for PBXNativeTarget "WainNakel" */;
 			buildPhases = (
+				89589E5863268A080F398BE2 /* [CP] Check Pods Manifest.lock */,
 				048C056A22D2D4BD0001CB33 /* Sources */,
 				048C056B22D2D4BD0001CB33 /* Frameworks */,
 				048C056C22D2D4BD0001CB33 /* Resources */,
+				8A561385D862C0A4EAA4CB08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +210,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048C059422D2D4EF0001CB33 /* HeaderView.xib in Resources */,
+				048C059722D2D4EF0001CB33 /* Main.storyboard in Resources */,
 				048C057C22D2D4BE0001CB33 /* LaunchScreen.storyboard in Resources */,
+				048C059E22D2D4EF0001CB33 /* 1192-like.json in Resources */,
+				048C059622D2D4EF0001CB33 /* SideMenuView.xib in Resources */,
 				048C057922D2D4BE0001CB33 /* Assets.xcassets in Resources */,
-				048C057722D2D4BD0001CB33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89589E5863268A080F398BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WainNakel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A561385D862C0A4EAA4CB08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WainNakel/Pods-WainNakel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WainNakel/Pods-WainNakel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		048C056A22D2D4BD0001CB33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048C057422D2D4BD0001CB33 /* ViewController.swift in Sources */,
-				048C057222D2D4BD0001CB33 /* AppDelegate.swift in Sources */,
+				048C059522D2D4EF0001CB33 /* ResturantDetailsVC.swift in Sources */,
+				048C059822D2D4EF0001CB33 /* HeaderView.swift in Sources */,
+				048C059D22D2D4EF0001CB33 /* Resturant.swift in Sources */,
+				048C05A022D2D76E0001CB33 /* AppDelegate.swift in Sources */,
+				048C059C22D2D4EF0001CB33 /* ResturantVM.swift in Sources */,
+				048C059B22D2D4EF0001CB33 /* ServiceBase.swift in Sources */,
+				048C059A22D2D4EF0001CB33 /* NetworkManager.swift in Sources */,
+				048C059922D2D4EF0001CB33 /* SideMenuView.swift in Sources */,
+				048C059322D2D4EF0001CB33 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		048C057522D2D4BD0001CB33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				048C057622D2D4BD0001CB33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		048C057A22D2D4BE0001CB33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +421,7 @@
 		};
 		048C058122D2D4BE0001CB33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E7C75B7A8B5CD2BD2BD561 /* Pods-WainNakel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +440,7 @@
 		};
 		048C058222D2D4BE0001CB33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD8D68AFF1D05AB6AAD6847 /* Pods-WainNakel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
